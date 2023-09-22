@@ -1,0 +1,268 @@
+* {
+    --cor-primaria: #5eb3c3;
+    --cor-secundaria: #444644;
+    --cor-fundo: #e6e7e8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabecalho{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+}
+
+.cabecalho a{
+    color: white;
+    font-size: 22px;
+    margin: 25px;
+}
+
+main{
+    background-color: var(--cor-primaria);
+}
+
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div{
+    width: 50%;
+}
+
+.container-img{
+    display: flex;
+    justify-content: right;
+}
+
+.container-texto{
+    color: white;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.container-texto h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.container-texto p{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.secao-master{
+    background-color: var(--cor-secundaria);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secao-master h2{
+    font-size: 50px;
+}
+
+.secao-master p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.secao-cards{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    padding: 60px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-cards .card{
+    color: var(--cor-secundaria);
+    height: 400px;
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card .card-img{
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+.card .card-img img{  
+    width: 130px;
+}
+
+.fully .card-img img{
+    width: 210px;
+}
+
+.card h3{
+    color: var(--cor-secundaria);
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+.fully h3{
+    color: var(--cor-primaria);
+}
+
+.card-conteudo{
+    color: var(--cor-secundaria);
+    font-size: 13px;
+    text-align: center;
+}
+
+.secao-img{
+    background-color:var(--cor-fundo);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-conteudo{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secao-escrito{
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.secao-escrito h2{
+    font-size: 55px;
+}
+
+.secao-escrito p{
+    font-size: 20px;
+}
+
+.imagens img{
+    width: 300px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.secao-pessoas{
+    background-color: white;
+}
+
+.secao-conteudo1{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    height: 500px;
+}
+
+.card1{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card1 figure{
+    position: relative;
+}
+
+.card1 .icone{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card1 h3{
+    color: var(--cor-secundaria);
+    font-size: 30px;
+}
+
+.card-conteudo1{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    width: 60%;
+}
+
+.secao-partners{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+.secao-partners div{
+    width: 50%;
+}
+
+.secao-layouts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor-secundaria);
+    gap: 15px;
+}
+
+.secao-layouts h2{
+    font-size: 60px;
+}
+
+.secao-layouts p{
+    color: gray;
+    font-size: 20px;
+}
+
+.secao-logos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.secao-logos div{
+    display: flex;
+    gap: 50px;
+}
+
+.logo1 figure img, .logo2 figure img{
+    width: 170px;
+}
