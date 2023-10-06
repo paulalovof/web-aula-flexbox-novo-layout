@@ -1,0 +1,103 @@
+@media (max-width: 576px){
+    .cabecalho{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        height: 20vh;
+    }
+
+    .cabecalho a{
+        font-size: 1rem;
+    }
+
+    main{
+        height: 80vh;
+    }
+
+    .container{
+        flex-direction: column;
+        gap:20px;
+        height: 80vh;
+    }
+
+    .container-img{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .container-texto{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .secao-master{
+        height: 200px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .secao-cards{
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .secao-img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 110%;
+    }
+
+    .imagens{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .secao-escrito h2{
+        font-size: 2.5rem;
+    }
+
+    .secao-conteudo{
+        text-align: center;
+    }
+
+    .secao-conteudo1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .secao-partners{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .secao-partners div{ 
+        width: 100%;
+    }
+
+    .secao-layouts{
+        text-align: center;      
+    }
+
+    .secao-logos div{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo1 figure img, .logo2 figure img{
+        width: 100%;
+    }
+
+    .card1 {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

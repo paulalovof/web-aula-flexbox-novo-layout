@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
 
 .cabecalho{
@@ -15,12 +16,12 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 120px;
+    height: 10vh;
 }
 
 .cabecalho a{
     color: white;
-    font-size: 22px;
+    font-size: 1.5rem;
     margin: 25px;
 }
 
@@ -29,8 +30,6 @@ main{
 }
 
 .container{
-    width: 1500px;
-    margin: 0 auto;
     display: flex;
     gap: 60px;
     height: 450px;
@@ -55,12 +54,12 @@ main{
 }
 
 .container-texto h1{
-    font-size: 60px;
+    font-size: 3.8rem;
     font-weight: 500;
 }
 
 .container-texto p{
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 100;
 }
 
@@ -76,23 +75,22 @@ main{
 }
 
 .secao-master h2{
-    font-size: 50px;
+    font-size: 3.1rem;
 }
 
 .secao-master p{
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 100;
 }
 
 .secao-cards{
-    width: 1500px;
-    margin: 0 auto;
     display: flex;
     height: 500px;
     padding: 60px;
     gap: 30px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .secao-cards .card{
@@ -122,7 +120,7 @@ main{
 
 .card h3{
     color: var(--cor-secundaria);
-    font-size: 40px;
+    font-size: 2.5rem;
     padding-top: 60px;
 }
 
@@ -132,7 +130,7 @@ main{
 
 .card-conteudo{
     color: var(--cor-secundaria);
-    font-size: 13px;
+    font-size: 0.9rem;
     text-align: center;
 }
 
@@ -147,11 +145,11 @@ main{
 }
 
 .secao-conteudo{
-    width: 1500px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
+    flex-wrap: wrap;
 }
 
 .secao-escrito{
@@ -164,11 +162,11 @@ main{
 }
 
 .secao-escrito h2{
-    font-size: 55px;
+    font-size: 3.5rem;
 }
 
 .secao-escrito p{
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .imagens img{
@@ -187,11 +185,11 @@ main{
 }
 
 .secao-conteudo1{
-    width: 1500px;
-    margin: 0 auto;
     display: flex;
     gap: 30px;
     height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card1{
@@ -215,12 +213,12 @@ main{
 
 .card1 h3{
     color: var(--cor-secundaria);
-    font-size: 30px;
+    font-size: 1.3rem;
 }
 
 .card-conteudo1{
     color: gray;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
     width: 60%;
 }
